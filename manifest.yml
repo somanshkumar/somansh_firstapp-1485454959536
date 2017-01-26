@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: somansh_firstapp
+  host: somanshw
+  disk_quota: 1024M
+  services:
+  - somansh_firstapp-cloudantNoSQLDB
+  - first_recognition
